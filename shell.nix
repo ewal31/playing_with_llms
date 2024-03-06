@@ -208,8 +208,6 @@ pkgs.mkShellNoCC {
   ];
 
   buildInputs = with pkgs; [
-    killall
-
     ollama
 
     (python311.withPackages (python-pkgs: [

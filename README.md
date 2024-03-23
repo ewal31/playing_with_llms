@@ -10,7 +10,7 @@ answer. The answers should be:
 * answered with a food
 
 ```bash
-$> nix-shell pure
+$> nix-shell --pure
 $> python script.py
 
 The question is:
